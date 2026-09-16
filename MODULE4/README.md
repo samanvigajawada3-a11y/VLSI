@@ -66,7 +66,7 @@ gtkwave ternary_operator_mux.vcd
 
 
 ### 📷 Output Waveform
-<img width="958" height="930" alt="2x1 mux 1st image" src="https://github.com/user-attachments/assets/a4ddaf60-f4fc-4c1f-b23d-b1f25bbe9fba" />
+<img width="1080" height="612" alt="Screenshot 2026-09-16 180534" src="https://github.com/user-attachments/assets/0b3ec466-ebaf-4972-8001-358bf2f41799" />
 
 
 
@@ -98,7 +98,7 @@ show
 
 
 ### 📷 Synthesized Circuit
-<img width="958" height="930" alt="mux diag image2" src="https://github.com/user-attachments/assets/ab5e482f-c11c-4cc5-9bf7-3a2e49f7025e" />
+<img width="1075" height="527" alt="Screenshot 2026-09-16 180545" src="https://github.com/user-attachments/assets/2661da5b-9daf-4ccc-b3bc-960da85087b4" />
 
 
 
@@ -124,7 +124,7 @@ gtkwave mux_generate.vcd
 
 
 ### 📷 Output Waveform
-<img width="958" height="930" alt="wave ternary mux 3rd" src="https://github.com/user-attachments/assets/b3df3f5c-d5f3-4b77-94a4-4a4f93c43933" />
+<img width="1071" height="597" alt="Screenshot 2026-09-16 180555" src="https://github.com/user-attachments/assets/f17a72e6-8b54-4641-8cdf-2a5506d9cacf" />
 
 
 
@@ -152,7 +152,7 @@ gtkwave bad_mux.vcd
 
 
 ### 📷 Output
-<img width="958" height="930" alt="bad mux 4th image" src="https://github.com/user-attachments/assets/8bbf014c-9a57-41c5-90ba-aebf14aadb27" />
+<img width="1067" height="617" alt="Screenshot 2026-09-16 180605" src="https://github.com/user-attachments/assets/635a9669-15e3-4050-b91f-f8d8c418cf7a" />
 
 
 
@@ -178,7 +178,7 @@ gtkwave bad_mux.vcd
 
 
 ### 📷 Output Waveform
-<img width="958" height="930" alt="bad mux 5th" src="https://github.com/user-attachments/assets/858948b8-86c5-4915-b4de-6b1564d53740" />
+<img width="1065" height="587" alt="Screenshot 2026-09-16 180616" src="https://github.com/user-attachments/assets/8a20689c-7433-4af7-a3f2-e0832e2b0fd8" />
 
 
 
@@ -204,7 +204,7 @@ gtkwave blocking_caveat.vcd
 ```
 
 ### 📷 Output Waveform
-<img width="958" height="930" alt="blockin caveat 6th" src="https://github.com/user-attachments/assets/ebc6762c-0679-49f4-9346-b01a3aa67573" />
+<img width="1072" height="598" alt="Screenshot 2026-09-16 180624" src="https://github.com/user-attachments/assets/0eff217f-e490-4d87-90d4-7db275cc531b" />
 
 
 
@@ -236,7 +236,7 @@ show
 
 
 ### 📷 Technology-Mapped Circuit
-<img width="958" height="930" alt="blocking cavaet 7th" src="https://github.com/user-attachments/assets/ba29e4c8-a690-4fc4-b0d9-2dd8e1efc9a8" />
+![Uploading Screenshot 2026-09-16 180633.png…]()
 
 
 

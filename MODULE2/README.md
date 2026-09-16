@@ -72,7 +72,7 @@ It provides important data such as:
 - Functional behavior
 
 The file was examined to understand how standard-cell data is organized and how synthesis tools use it during cell selection and technology mapping.
-<img width="1080" height="486" alt="image" src="https://github.com/samanvigajawada3-a11y/VLSI/blob/main/MODULE2/Screenshot%202026-09-16%20165400.png?raw=true" />
+<img width="1837" height="847" alt="Screenshot 2026-09-16 165400" src="https://github.com/user-attachments/assets/d7541d72-75da-494e-80f0-df8454d7a081" />
 
 ### Result
 
@@ -87,7 +87,7 @@ Synthesis translates RTL into a gate-level hardware representation. Both hierarc
 Hierarchical synthesis retains the original RTL module structure.
 
 The individual modules remain separate, making it easier to identify the relationship between different blocks and debug the synthesized design.
-<img width="1080" height="484" alt="image" src="https://github.com/samanvigajawada3-a11y/VLSI/blob/main/MODULE2/Screenshot%202026-09-16%20165807.png?raw=true" />
+<img width="1858" height="830" alt="Screenshot 2026-09-16 165807" src="https://github.com/user-attachments/assets/4dab1d70-4cc1-4b7b-99a2-2d54167406a9" />
 
 
 ### Result
@@ -106,7 +106,7 @@ The following command is used in Yosys to flatten the design:
 flatten
 ```
 
-<img width="1080" height="555" alt="image" src="https://github.com/user-attachments/assets/d13fdd2d-bbd1-46ae-90e0-09d41e918a5a" />
+<img width="1252" height="642" alt="Screenshot 2026-09-16 170623" src="https://github.com/user-attachments/assets/e6ba9064-1a27-4e79-a4a8-3c90cb65e5f6" />
 
 ## 2.3 ⚖️ Comparison of Synthesis Methods
 
@@ -162,7 +162,7 @@ iverilog dff_asyncres.v tb_dff_asyncres.v
 ./a.out
 gtkwave tb_dff_asyncres.vcd
 ```
-<img width="1080" height="539" alt="image" src="https://github.com/user-attachments/assets/e15a4aae-1eac-466f-b6da-cb512a3b9cae" />
+<img width="1262" height="617" alt="Screenshot 2026-09-16 170640" src="https://github.com/user-attachments/assets/ac400579-220b-41cd-ba2f-fea34cf01718" />
 
 
 ### Result
@@ -193,7 +193,8 @@ endmodule
 ### Working
 When async_set is high, the output q is immediately set to 1.
 When the set signal is inactive, the input d is transferred to q at the rising edge of the clock.
-<img width="1080" height="1005" alt="image" src="https://github.com/user-attachments/assets/3ebde68c-1884-4319-b607-c0c8f35b9259" />
+<img width="615" height="567" alt="Screenshot 2026-09-16 170724" src="https://github.com/user-attachments/assets/f4896c21-8bb9-4ff4-bc69-6a8ec5691c9a" />
+
 
 ### Simulation Commands
 ```bash
@@ -232,7 +233,8 @@ At every rising edge of clk:
 When sync_reset is high, q is cleared to 0.
 When sync_reset is low, the value of d is stored in q.
 Unlike asynchronous reset, a change in sync_reset alone does not immediately affect the output.
-<img width="1080" height="550" alt="image" src="https://github.com/user-attachments/assets/4c645bf3-f57e-41f6-9d22-f6e25de01210" />
+<img width="943" height="480" alt="Screenshot 2026-09-16 170742" src="https://github.com/user-attachments/assets/2b4f78f8-aabd-4d65-9ffa-c16d386516ff" />
+
 
 ### Simulation Commands
 ```bash
@@ -369,7 +371,8 @@ show
 write_verilog -noattr mul2_net.v
 gvim mul2_net.v
 ```
-<img width="322" height="97" alt="image" src="https://github.com/user-attachments/assets/09cf1f88-24bb-42ba-b20d-60e603f79fff" />
+<img width="297" height="88" alt="Screenshot 2026-09-16 170804" src="https://github.com/user-attachments/assets/7ab0aaf8-8a45-4a96-ab41-2fa26a054410" />
+
 
 ### Result
 
@@ -395,7 +398,8 @@ show
 write_verilog -noattr mult8_net.v
 gvim mult8_net.v
 ```
-<img width="355" height="74" alt="image" src="https://github.com/user-attachments/assets/49b685f8-18fe-41e8-8222-f5363ae7031a" />
+<img width="326" height="70" alt="Screenshot 2026-09-16 170813" src="https://github.com/user-attachments/assets/f51d7715-a804-41f3-984c-0cac93d2f0cb" />
+
 
 ### Result
 
@@ -407,7 +411,8 @@ write_verilog -noattr mult8_net.v
 gvim mul2_net.v
 gvim mult8_net.v
 ```
-<img width="1054" height="893" alt="image" src="https://github.com/user-attachments/assets/be4425b0-1f15-48f4-b490-d95f4ef2c3e9" />
+<img width="940" height="786" alt="Screenshot 2026-09-16 170826" src="https://github.com/user-attachments/assets/8b8b6415-0a33-4641-99b3-d7cc6cc48517" />
+
 
 ### Result
 

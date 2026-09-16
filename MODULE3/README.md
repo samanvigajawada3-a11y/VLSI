@@ -185,7 +185,7 @@ iverilog -o dff_const1.out dff_const1.v tb_dff_const1.v
 gtkwave tb_dff_const1.vcd
 ```
 Output
-<img width="886" height="797" alt="Screenshot 2026-09-16 174334" src="https://github.com/user-attachments/assets/d8955509-0285-411e-8d15-18e9a309d362" />
+<img width="885" height="556" alt="Screenshot 2026-09-16 175304" src="https://github.com/user-attachments/assets/c40aa2c4-e931-456a-9c82-585676c190b9" />
 
 
 ## 8. Simulation Waveform – dff_const2
@@ -226,7 +226,7 @@ abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
 Output
-<img width="885" height="753" alt="Screenshot 2026-09-16 174408" src="https://github.com/user-attachments/assets/6ccd8f9d-23c7-4942-90c4-56abba002b13" />
+<img width="895" height="225" alt="Screenshot 2026-09-16 174354" src="https://github.com/user-attachments/assets/d804c54b-ace5-4ab6-9d79-d06134c7a3a4" />
 
 
 
@@ -243,7 +243,7 @@ abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
 Output
-<img width="890" height="457" alt="Screenshot 2026-09-16 174429" src="https://github.com/user-attachments/assets/3a3c137d-d155-427d-a477-91ab3161db01" />
+<img width="885" height="753" alt="Screenshot 2026-09-16 174408" src="https://github.com/user-attachments/assets/3d03052a-28a0-4ea1-98c7-5266a830c693" />
 
 
 
@@ -271,7 +271,7 @@ iverilog -o dff_const3.out dff_const3.v dff_const3_tb.v
 gtkwave dff_const3.vcd
 ```
 Output
-<img width="892" height="258" alt="Screenshot 2026-09-16 174439" src="https://github.com/user-attachments/assets/f130f223-c151-4ed9-b60b-c2f30e927a9a" />
+<img width="890" height="457" alt="Screenshot 2026-09-16 174429" src="https://github.com/user-attachments/assets/ca4eb659-c684-4c64-9f83-5ba24188aa27" />
 
 
 ## 12. Synthesized D Flip-Flop Circuit
@@ -288,7 +288,7 @@ synth -top dff_const3
 show
 ```
 Output
-<img width="892" height="258" alt="Screenshot 2026-09-16 174439" src="https://github.com/user-attachments/assets/f50192ac-65c4-408a-a777-4f28d38145b3" />
+<img width="892" height="258" alt="Screenshot 2026-09-16 174439" src="https://github.com/user-attachments/assets/602000d1-f2e7-4bf8-9c52-f137b56ba936" />
 
 
 ## 13. Counter Optimization
@@ -339,7 +339,7 @@ synth -top counter_opt
 show
 ```
 Output
-<img width="448" height="241" alt="Screenshot 2026-09-16 174448" src="https://github.com/user-attachments/assets/5425ed3d-52d0-46b8-b32a-dd3fc65172fa" />
+<img width="448" height="241" alt="Screenshot 2026-09-16 174448" src="https://github.com/user-attachments/assets/9d85a8eb-0501-4768-88ad-4fbe6b83ab44" />
 
 
 
@@ -353,7 +353,7 @@ write_verilog -noattr counter_opt_net.v
 gvim counter_opt_net.v
 ```
 Output
-<img width="887" height="196" alt="Screenshot 2026-09-16 174456" src="https://github.com/user-attachments/assets/a6b0cdb7-bc7a-4700-a524-4aaa776e85f0" />
+<img width="887" height="196" alt="Screenshot 2026-09-16 174456" src="https://github.com/user-attachments/assets/de6c0f65-ab39-49cd-8823-0bae8a568ba9" />
 
 
 
@@ -368,7 +368,7 @@ gvim counter_opt_net.v
 ```
 
 Output
-<img width="441" height="242" alt="Screenshot 2026-09-16 174503" src="https://github.com/user-attachments/assets/4ee435f4-d923-4570-a0d9-cd8ab0ec19ee" />
+<img width="441" height="242" alt="Screenshot 2026-09-16 174503" src="https://github.com/user-attachments/assets/4d2cb7af-d41a-48ad-903d-cc10529c79e8" />
 
 
 #🎯 Overall Result

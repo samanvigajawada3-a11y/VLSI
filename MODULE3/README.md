@@ -160,7 +160,7 @@ vim dff_const1.v
 vim dff_const2.v
 ```
 Output
-<img width="882" height="756" alt="Screenshot 2026-09-16 174318" src="https://github.com/user-attachments/assets/29161cf1-b514-4e01-b352-71f8dc3a6fc5" />
+<img width="886" height="797" alt="Screenshot 2026-09-16 174334" src="https://github.com/user-attachments/assets/9a509072-c6ed-466c-90d5-e983c912f3c9" />
 
 
 ## 7. Simulation Waveform – dff_const1
@@ -185,7 +185,6 @@ iverilog -o dff_const1.out dff_const1.v tb_dff_const1.v
 gtkwave tb_dff_const1.vcd
 ```
 Output
-<img width="885" height="556" alt="Screenshot 2026-09-16 175304" src="https://github.com/user-attachments/assets/c40aa2c4-e931-456a-9c82-585676c190b9" />
 
 
 ## 8. Simulation Waveform – dff_const2

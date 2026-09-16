@@ -72,7 +72,7 @@ It provides important data such as:
 - Functional behavior
 
 The file was examined to understand how standard-cell data is organized and how synthesis tools use it during cell selection and technology mapping.
-<img width="1080" height="486" alt="image" src="https://github.com/user-attachments/assets/a34ea2d9-9890-4f50-952e-75499a7fc326" />
+<img width="1080" height="486" alt="image" src="https://github.com/samanvigajawada3-a11y/VLSI/blob/main/MODULE2/Screenshot%202026-09-16%20165400.png?raw=true" />
 
 ### Result
 
@@ -87,7 +87,7 @@ Synthesis translates RTL into a gate-level hardware representation. Both hierarc
 Hierarchical synthesis retains the original RTL module structure.
 
 The individual modules remain separate, making it easier to identify the relationship between different blocks and debug the synthesized design.
-<img width="1080" height="484" alt="image" src="https://github.com/user-attachments/assets/923e03ee-6776-4b6e-81bb-ebcfd6ef52df" />
+<img width="1080" height="484" alt="image" src="https://github.com/samanvigajawada3-a11y/VLSI/blob/main/MODULE2/Screenshot%202026-09-16%20165807.png?raw=true" />
 
 
 ### Result

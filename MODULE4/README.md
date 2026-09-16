@@ -236,7 +236,7 @@ show
 
 
 ### 📷 Technology-Mapped Circuit
-![Uploading Screenshot 2026-09-16 180633.png…]()
+<img width="1071" height="640" alt="Screenshot 2026-09-16 180642" src="https://github.com/user-attachments/assets/0f5158b1-706b-47b5-afa3-14810a5c9233" />
 
 
 

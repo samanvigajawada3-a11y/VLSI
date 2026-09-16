@@ -244,7 +244,7 @@ The synthesis report indicates latch inference due to partially specified output
 
 ###  Simulation Waveform
 The GTKWave simulation confirms the synthesized behavior. The waveform shows that the output retains its previous value whenever an assignment is missing, matching the inferred latch behavior.
-<img width="1061" height="616" alt="Screenshot 2026-09-16 181526" src="https://github.com/user-attachments/assets/0b478fe4-5ab0-4239-8764-16289a76775e" />
+<img width="1061" height="616" alt="Screenshot 2026-09-16 181526" src="https://github.com/user-attachments/assets/df212eef-9a8e-436e-a250-fd6d0fc9fbd7" />
 
 
 ### Result
@@ -254,7 +254,7 @@ The RTL simulation confirms the behavior of the partial case statement. The wave
 ## 8 – Bad Case Assignmrnt
 ### Overview
 This experiment verifies the RTL functionality of the implemented design using GTKWave. Different input combinations are applied through the testbench to ensure the circuit behaves as expected before synthesis.
-<img width="1057" height="598" alt="Screenshot 2026-09-16 181535" src="https://github.com/user-attachments/assets/c5ff1cf9-689d-4aff-b59b-c98a7144210e" />
+<img width="1057" height="598" alt="Screenshot 2026-09-16 181535" src="https://github.com/user-attachments/assets/318b1473-4d7a-4be5-859c-e09d25cfd62e" />
 
 ### code
 ```verilog
@@ -280,7 +280,7 @@ The RTL simulation successfully verifies the functional correctness of the desig
 ##  9 – Multiplexer (MUX) Verification
 ### Overview
 This experiment demonstrates the operation of a multiplexer. The select lines determine which input is connected to the output.
-<img width="958" height="930" alt="mux 12th" src="https://github.com/user-attachments/assets/ff95c75d-87d0-4f29-8751-25d15fadfdc8" />
+<img width="1060" height="642" alt="Screenshot 2026-09-16 181544" src="https://github.com/user-attachments/assets/02049800-67f9-4707-a052-9442153ef6b3" />
 
 
 ### Observation
@@ -292,7 +292,7 @@ The multiplexer functions correctly, and the simulation validates proper data se
 ### Overview
 This experiment demonstrates the behavior of a demultiplexer, where a single input is routed to one of several output lines based on the select signal.
 
-<img width="958" height="930" alt="demux wave 13" src="https://github.com/user-attachments/assets/e866c0ae-c957-47ea-88ee-416ed30bff1c" />
+<img width="1061" height="690" alt="Screenshot 2026-09-16 181552" src="https://github.com/user-attachments/assets/4fed7165-1d3f-491d-a0d7-2ed87df9fdad" />
 
 ### Observation
 The waveform shows that only the selected output receives the input signal, while all remaining outputs stay inactive.
@@ -302,7 +302,7 @@ The demultiplexer operates correctly, successfully routing the input to the sele
 ## 11 – Ripple Carry Adder
 ### Overview
 This experiment verifies the functionality of an 8-bit Ripple Carry Adder. The design performs binary addition by propagating the carry from one full adder stage to the next.
-<img width="958" height="930" alt="ripple carry adder 14th image" src="https://github.com/user-attachments/assets/f0c2228d-548b-48dd-b195-88b50290579b" />
+<img width="1060" height="612" alt="Screenshot 2026-09-16 181601" src="https://github.com/user-attachments/assets/4258f5f0-ea58-417c-b24e-3f47bfc4ec14" />
 
 
 ### Observation

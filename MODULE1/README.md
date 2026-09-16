@@ -23,14 +23,14 @@ A simulator is a software tool used to verify the functionality of a digital cir
 
 ## Design
 The design is the Verilog code that describes the required hardware functionality.
-<img width="880" height="556" alt="6d5a017b-25ac-44ad-a186-e54d5fedb3fc" src="https://github.com/user-attachments/assets/022fdf42-a030-4252-826c-c7e68716bc98" />
+<img width="983" height="621" alt="Screenshot 2026-09-16 172309" src="https://github.com/user-attachments/assets/753f9859-14c3-4458-a41b-c576d83b8aa3" />
 
 
 
 
 ## Testbench
 A testbench provides different input combinations to verify whether the design produces the expected outputs.
-<img width="976" height="556" alt="5a3dc0d0-1386-440f-bc1d-d6aabb3a5c63" src="https://github.com/user-attachments/assets/34b40dc2-47be-496a-8a5f-a8b135d372df" />
+<img width="1082" height="615" alt="Screenshot 2026-09-16 172326" src="https://github.com/user-attachments/assets/c577f8fe-d2c4-48bb-b6e9-1e1c563275d3" />
 
 
 
@@ -42,7 +42,7 @@ Simulation Flow:
 
 Design + Testbench → Iverilog → VCD File → GTKWave
 
-<img width="1080" height="640" alt="8063fea1-a7b5-44a6-bacd-73d3d8463bd5" src="https://github.com/user-attachments/assets/b6870a1b-47f9-4177-8bd5-7be55b810925" />
+<img width="1103" height="632" alt="Screenshot 2026-09-16 172347" src="https://github.com/user-attachments/assets/0aed6317-fe89-41cd-8369-8bd430375859" />
 
 
 # 3. Lab: Simulating a 2-to-1 Multiplexer
@@ -73,7 +73,7 @@ gtkwave tb_good_mux.vcd
 ```
 
 **Image: GTKWave Output**
-<img width="1920" height="940" alt="mux wave" src="https://github.com/user-attachments/assets/0bd68e56-52d8-40ad-b0bb-f821ed3408aa" />
+<img width="1115" height="565" alt="Screenshot 2026-09-16 172403" src="https://github.com/user-attachments/assets/a1eafb72-b758-474a-b9e9-a7868a6e474c" />
 
 
 
@@ -81,7 +81,7 @@ gtkwave tb_good_mux.vcd
 
 ## Multiplexer Code
 
-<img width="1080" height="616" alt="b027b3d7-04f8-4027-bc3b-aa204b61ed2d" src="https://github.com/user-attachments/assets/6f7f7336-5aeb-4c19-a707-8df1903213c2" />
+<img width="1055" height="576" alt="Screenshot 2026-09-16 172412" src="https://github.com/user-attachments/assets/da625529-f1be-4a7e-aff7-8d757f504c28" />
 
    
 
@@ -103,7 +103,7 @@ Yosys is an open-source RTL synthesis tool used to perform this conversion. In t
 The basic synthesis flow is:
 
 **Verilog RTL Design → Yosys → Gate-Level Netlist**
-<img width="897" height="324" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/d2a2442b-91f8-475a-b8ea-8c5626fc9350" />
+<img width="987" height="327" alt="Screenshot 2026-09-16 172421" src="https://github.com/user-attachments/assets/5a49018a-7d18-45ec-97db-f9b558c4196b" />
 
 
 ### 5.2 Lab: Synthesizing the Design
@@ -134,7 +134,7 @@ The synthesized design was then viewed as a gate-level schematic.
 ```bash
 show
 ```
-<img width="958" height="292" alt="yosysblockdiagram" src="https://github.com/user-attachments/assets/4712fea6-798b-4a72-b867-94e2df2e32a0" />
+<img width="1060" height="290" alt="Screenshot 2026-09-16 172434" src="https://github.com/user-attachments/assets/23a4258b-82e1-42d6-947f-0654f37d30fe" />
 
 This schematic represents the RTL design using standard cells such as flip-flops and logic gates.
 

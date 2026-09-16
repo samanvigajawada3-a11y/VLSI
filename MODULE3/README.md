@@ -38,14 +38,14 @@ Operating System: Linux(Ubuntu)
 
 ## 1.Introduction to Logic Optimizations
 Logic optimization simplifies a circuit while preserving its intended behavior. It can reduce hardware area, switching activity, and propagation delay. This module demonstrates combinational and sequential optimization using Yosys together with the SKY130 standard-cell library.
-<img width="1277" height="595" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/534b0d39-3317-4dba-80d2-2f2a0190e454" />
+<img width="1103" height="512" alt="Screenshot 2026-09-16 174145" src="https://github.com/user-attachments/assets/587d06ed-cfe8-41e6-8aa8-371b86fc7df2" />
 
 ### Result
 Constant propagation was explored to see how synthesis tools replace known values and remove unnecessary logic.
 
 ## 2. 🔄 Sequential Logic Optimizations
 Sequential optimization improves registers and related logic without changing the circuit's behavior. The module introduces techniques including constant propagation, retiming, and state optimization.
-<img width="1096" height="581" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/cb6ca621-a87f-4a50-b89f-942325ff151f" />
+<img width="1096" height="576" alt="Screenshot 2026-09-16 174155" src="https://github.com/user-attachments/assets/76202ae2-13e6-420c-83d3-59342292fda8" />
 
 
 ### Result
@@ -71,7 +71,7 @@ synth -top opt_check
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
-<img width="958" height="930" alt="opt check and gate mod3 start 1st" src="https://github.com/user-attachments/assets/fff7b4a0-edc0-4608-a821-edf0b32ebd47" />
+<img width="1193" height="393" alt="Screenshot 2026-09-16 174226" src="https://github.com/user-attachments/assets/84ce1611-1457-4bd6-99cf-4566bacf2b1a" />
 
 ### Result
 The two-input AND function was synthesized and mapped to the SKY130 AND2 standard cell.
@@ -95,7 +95,7 @@ synth -top opt_check2
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
-<img width="958" height="930" alt="norgate mod3 2nd" src="https://github.com/user-attachments/assets/fe49600c-e152-4be2-8f05-9f0a6bdbdcd3" />
+<img width="952" height="242" alt="Screenshot 2026-09-16 174245" src="https://github.com/user-attachments/assets/3b6e2afc-f0c9-491a-a71e-b64db52bdbd4" />
 
 
 ### Result
@@ -122,7 +122,7 @@ synth -top opt_check3
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
-<img width="958" height="930" alt="3ip and gate 3rd image module3" src="https://github.com/user-attachments/assets/bfac1861-30c3-4f2e-b5b9-0041b9954059" />
+<img width="953" height="551" alt="Screenshot 2026-09-16 174255" src="https://github.com/user-attachments/assets/fd9df8d7-5ff7-4e95-9936-148e79dc11f0" />
 
 ### Result
 The three-input AND function was synthesized and mapped to the SKY130 AND3 standard cell.
@@ -160,7 +160,7 @@ vim dff_const1.v
 vim dff_const2.v
 ```
 Output
-<img width="958" height="930" alt="code 4th image" src="https://github.com/user-attachments/assets/f9222591-7c82-484d-a1a6-489039067849" />
+<img width="882" height="756" alt="Screenshot 2026-09-16 174318" src="https://github.com/user-attachments/assets/29161cf1-b514-4e01-b352-71f8dc3a6fc5" />
 
 
 ## 7. Simulation Waveform – dff_const1
@@ -185,7 +185,7 @@ iverilog -o dff_const1.out dff_const1.v tb_dff_const1.v
 gtkwave tb_dff_const1.vcd
 ```
 Output
-<img width="958" height="930" alt="wave 5th" src="https://github.com/user-attachments/assets/54c5497a-2444-4b3b-be37-2906dd7e0ea6" />
+<img width="886" height="797" alt="Screenshot 2026-09-16 174334" src="https://github.com/user-attachments/assets/d8955509-0285-411e-8d15-18e9a309d362" />
 
 
 ## 8. Simulation Waveform – dff_const2
@@ -210,7 +210,7 @@ iverilog -o dff_const2.out dff_const2.v tb_dff_const2_.v
 gtkwave tb_dff_const2_.vcd
 ```
 Output
-<img width="958" height="930" alt="6th" src="https://github.com/user-attachments/assets/81fa31f8-9500-41a5-b01c-2d2de2b22f1e" />
+<img width="895" height="225" alt="Screenshot 2026-09-16 174354" src="https://github.com/user-attachments/assets/ade230c3-74fc-4296-afd9-88111b931bab" />
 
 
 ## 9. D Flip-Flop Netlist Before Optimization
@@ -226,7 +226,7 @@ abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
 Output
-<img width="958" height="930" alt="dff const1 7th" src="https://github.com/user-attachments/assets/28083af0-94a2-4c36-85f4-853ff4a617db" />
+<img width="885" height="753" alt="Screenshot 2026-09-16 174408" src="https://github.com/user-attachments/assets/6ccd8f9d-23c7-4942-90c4-56abba002b13" />
 
 
 
@@ -243,7 +243,7 @@ abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
 Output
-<img width="958" height="930" alt="seq optimization 8th" src="https://github.com/user-attachments/assets/ec7fe013-f9d5-4ab3-ac20-436c7639a72a" />
+<img width="890" height="457" alt="Screenshot 2026-09-16 174429" src="https://github.com/user-attachments/assets/3a3c137d-d155-427d-a477-91ab3161db01" />
 
 
 
@@ -271,7 +271,7 @@ iverilog -o dff_const3.out dff_const3.v dff_const3_tb.v
 gtkwave dff_const3.vcd
 ```
 Output
-<img width="958" height="930" alt="dffconst3 9th" src="https://github.com/user-attachments/assets/564760ac-8465-4be7-8a5c-6b452d4f041b" />
+<img width="892" height="258" alt="Screenshot 2026-09-16 174439" src="https://github.com/user-attachments/assets/f130f223-c151-4ed9-b60b-c2f30e927a9a" />
 
 
 ## 12. Synthesized D Flip-Flop Circuit
@@ -288,7 +288,7 @@ synth -top dff_const3
 show
 ```
 Output
-<img width="958" height="930" alt="2ff is there set and reset 10th image" src="https://github.com/user-attachments/assets/fbcd222c-c976-47e5-8ee4-94cc75efc218" />
+<img width="892" height="258" alt="Screenshot 2026-09-16 174439" src="https://github.com/user-attachments/assets/f50192ac-65c4-408a-a777-4f28d38145b3" />
 
 
 ## 13. Counter Optimization
@@ -339,7 +339,7 @@ synth -top counter_opt
 show
 ```
 Output
-<img width="958" height="930" alt="unused op optimization 11 image" src="https://github.com/user-attachments/assets/53b8fc3f-3a6a-4937-a479-a029e2507987" />
+<img width="448" height="241" alt="Screenshot 2026-09-16 174448" src="https://github.com/user-attachments/assets/5425ed3d-52d0-46b8-b32a-dd3fc65172fa" />
 
 
 
@@ -353,7 +353,7 @@ write_verilog -noattr counter_opt_net.v
 gvim counter_opt_net.v
 ```
 Output
-<img width="958" height="930" alt="counter dff 3bit but 1flop there 12th image" src="https://github.com/user-attachments/assets/6d05c5ac-b53f-4dd9-87b2-4980300107a1" />
+<img width="887" height="196" alt="Screenshot 2026-09-16 174456" src="https://github.com/user-attachments/assets/a6b0cdb7-bc7a-4700-a524-4aaa776e85f0" />
 
 
 
@@ -368,7 +368,7 @@ gvim counter_opt_net.v
 ```
 
 Output
-<img width="958" height="930" alt="opt2 counter 13thimage" src="https://github.com/user-attachments/assets/bfc5cf2c-211c-41fe-b7f9-374725b41489" />
+<img width="441" height="242" alt="Screenshot 2026-09-16 174503" src="https://github.com/user-attachments/assets/4ee435f4-d923-4570-a0d9-cd8ab0ec19ee" />
 
 
 #🎯 Overall Result

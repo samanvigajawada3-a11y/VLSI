@@ -133,7 +133,7 @@ The following coding styles are covered:
 
 ## 3.1 🔴 Asynchronous Reset D Flip-Flop
 
-An asynchronous reset clears the flip-flop output as soon as reset is asserted; it does not wait for a clock edge.
+An asynchronous reset clears the flip-flop output as soon as reset is asserted; it does not wait for a clock edge. 
 
 ### Verilog Code
 

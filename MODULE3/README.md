@@ -160,7 +160,7 @@ vim dff_const1.v
 vim dff_const2.v
 ```
 Output
-<img width="886" height="797" alt="Screenshot 2026-09-16 174334" src="https://github.com/user-attachments/assets/9a509072-c6ed-466c-90d5-e983c912f3c9" />
+<img width="882" height="756" alt="Screenshot 2026-09-16 174318" src="https://github.com/user-attachments/assets/e1e75d69-6495-4678-955a-d317d4ce93d8" />
 
 
 ## 7. Simulation Waveform – dff_const1
@@ -209,7 +209,7 @@ iverilog -o dff_const2.out dff_const2.v tb_dff_const2_.v
 gtkwave tb_dff_const2_.vcd
 ```
 Output
-<img width="895" height="225" alt="Screenshot 2026-09-16 174354" src="https://github.com/user-attachments/assets/ade230c3-74fc-4296-afd9-88111b931bab" />
+<img width="886" height="797" alt="Screenshot 2026-09-16 174334" src="https://github.com/user-attachments/assets/3a4fd143-c30c-453c-9260-c643fe0ab2a0" />
 
 
 ## 9. D Flip-Flop Netlist Before Optimization
@@ -225,7 +225,7 @@ abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
 Output
-<img width="895" height="225" alt="Screenshot 2026-09-16 174354" src="https://github.com/user-attachments/assets/d804c54b-ace5-4ab6-9d79-d06134c7a3a4" />
+<img width="885" height="556" alt="Screenshot 2026-09-16 175304" src="https://github.com/user-attachments/assets/c3e4e16b-b953-419c-a76f-6dd71b4ae31a" />
 
 
 
